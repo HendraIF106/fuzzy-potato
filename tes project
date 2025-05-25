@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Nama Anda</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 20px;
+            background-color: #f9f9f9;
+        }
+        .profile-img {
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .section-title {
+            border-bottom: 2px solid #333;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Foto Diri -->
+    <div class="text-center mb-4">
+        <img src="https://via.placeholder.com/200" alt="Foto Diri" class="profile-img">
+    </div>
+
+    <!-- Deskripsi Diri -->
+    <h1 class="text-center">Nama Lengkap Anda</h1>
+    <p class="text-center">HSE Officer | Safety Specialist | Lingkungan Kerja</p>
+
+    <section>
+        <h2 class="section-title">Tentang Saya</h2>
+        <p><strong>Saya adalah seorang HSE Officer</strong> yang berdedikasi dalam memastikan keselamatan dan kesehatan kerja di lingkungan industri. Dengan pengalaman lebih dari 3 tahun di bidang K3L, saya terbiasa melakukan inspeksi, audit internal, serta pelatihan keselamatan kerja kepada karyawan.</p>
+        <p><em>Visi saya adalah menciptakan budaya kerja yang aman dan produktif</em>, sejalan dengan regulasi nasional dan standar internasional seperti ISO 45001. Saya juga aktif dalam menyusun SOP, melakukan identifikasi risiko, dan penanggulangan insiden kerja.</p>
+    </section>
+
+    <!-- Link Internal dan Eksternal -->
+    <section>
+        <h2 class="section-title">Tautan Terkait</h2>
+        <ul>
+            <li><a href="https://peraturan.bpk.go.id/Home/Details/140165/permenaker-nomor-5-tahun-2018" target="_blank">Peraturan Kemenaker</a></li>
+            <li><a href="https://www.iso.org/standard/63787.html" target="_blank">ISO 45001</a></li>
+            <li><a href="#pengalaman">Lihat Pengalaman Kerja Saya</a></li>
+        </ul>
+    </section>
+
+    <!-- Gambar Tambahan -->
+    <section class="row my-4">
+        <div class="col-md-4"><img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Kegiatan 1"></div>
+        <div class="col-md-4"><img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Kegiatan 2"></div>
+        <div class="col-md-4"><img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Kegiatan 3"></div>
+    </section>
+
+    <!-- Tabel Data -->
+    <section id="pengalaman">
+        <h2 class="section-title">Pengalaman Kerja</h2>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+            <tr><th>Tahun</th><th>Perusahaan</th><th>Posisi</th></tr>
+            </thead>
+            <tbody>
+            <tr><td>2022 - Sekarang</td><td>PT Aman Selalu</td><td>HSE Officer</td></tr>
+            <tr><td>2020 - 2022</td><td>CV Safety First</td><td>Asisten K3</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2 class="section-title">Pendidikan</h2>
+        <table class="table table-striped">
+            <tr><th>Tahun</th><th>Institusi</th><th>Gelar</th></tr>
+            <tr><td>2016 - 2020</td><td>Universitas XYZ</td><td>S1 Kesehatan dan Keselamatan Kerja</td></tr>
+        </table>
+    </section>
+
+    <!-- List Keterampilan -->
+    <section>
+        <h2 class="section-title">Keterampilan</h2>
+        <ul>
+            <li>Audit dan Inspeksi K3L</li>
+            <li>Penyusunan SOP dan Risk Assessment</li>
+            <li>Pelatihan & Edukasi Keselamatan Kerja</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">Bahasa</h2>
+        <ol>
+            <li>Bahasa Indonesia (Aktif)</li>
+            <li>Bahasa Inggris (Menengah)</li>
+        </ol>
+    </section>
+
+    <!-- Komentar HTML -->
+    <!-- Ini adalah bagian footer dari CV -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Nama Anda. Seluruh hak cipta dilindungi.</p>
+    </footer>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
